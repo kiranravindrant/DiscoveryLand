@@ -1,0 +1,233 @@
+header{
+
+
+    height:35vh;
+    width:100vw;
+    background-color:#111;
+    display: flex;
+   align-items: center;
+    
+
+}
+
+.logo > img{
+
+    width:70%;
+    margin:30%;
+
+
+}
+
+
+
+
+
+.nav-list{
+    
+    list-style:none;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 93%;
+    margin-top:1% ;
+    width: 100%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+   
+    line-height: 2em;
+    font-family: monospace;
+   
+}
+
+
+.outer-container{
+
+    width: 100vw;
+  
+    display: flex;
+    flex-direction: column;
+    background-color:#111 ;
+}
+body{
+    margin: 0%;
+}
+.inner-container-row{
+
+    /* border:2px solid yellowgreen; */
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 45vh;
+}
+
+.coloumn {
+    /* border: 2px solid red; */
+    width:25vw ;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+
+}
+
+.coloumn >img {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 70%;
+    align-items:center;
+   
+   
+   
+    
+    
+
+}
+
+.text-cell{
+    /* border: 2px solid white; */
+    height: 12vh;
+    color: white;
+    font-family: monospace;
+    font-size: .85rem;
+
+
+}
+
+.mob-screen{
+
+width:30%;
+
+}
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color:#161f1e ;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+
+    flex-wrap: wrap;
+}
+
+.magazine{
+    margin-right: 7%;
+}
+
+@media screen  and (max-width:600px){
+    
+
+    .inner-container-row {
+
+        /* border:2px solid yellowgreen; */
+        width: 100%;
+        height: fit-content;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+    
+     
+    }
+
+    .coloumn {
+        /* border: 2px solid red; */
+        width:100vw ;
+        display: flex;
+        flex-direction: column;
+      
+        
+        
+    
+    }
+
+    .coloumn >img {
+        /* border: 2px solid red; */
+        width: 97%;
+        height: 50%;
+        align-items:center;
+       
+       
+       
+        
+        
+    
+    }
+
+    .text-cell{
+        /* border: 2px solid white; */
+        height: 12vh;
+        color: white;
+        font-family: monospace;
+        font-size: .85rem;
+    
+    
+    }
+
+   
+
+    header{
+
+
+        height:22vh;
+        width:100vw;
+        background-color:#111;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        align-items: flex-start;
+        
+        
+    
+    }
+
+    .logo > img{
+
+    width:70%;
+    margin-top:5%;
+
+
+}
+
+.nav-list{
+    
+    display: none;
+}
+
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    background-color:#161f1e ;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    width:100%;
+    
+   
+}
+
+.mob-screen{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:80%;
+}
+
+.getintouch{
+    margin-left:7% ;
+}
+
+.logo{
+
+    margin-left: -65%;
+    width:50%;
+}
+
+}

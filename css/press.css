@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+}
+
+
+
+
+
+.main-header{
+  
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../assets/pressbg.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+  
+    
+
+}
+
+.logo-navbar{
+width:90%;
+margin-top: -10%;
+margin-left: 2%;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+.nav-list{
+    
+    list-style:none;
+   
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+   
+    line-height: 1.5;
+   
+}
+
+.caption-1{
+color: white;
+margin-left: 20%;
+margin-bottom: 4% ;
+
+}
+
+.caption-1 h1{
+
+    font-family: gt-sectra;
+    font-weight: 100;
+    font-size:3.5em;
+    
+
+}
+
+#scroll-message{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsla(0,0%,100%,.65);
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    font-weight: normal;
+}
+
+.container-fluid>h2{
+    /* border: 2px solid green; */
+    font-weight:100;
+    font-family: gt-sectra;
+    padding: 5%;
+
+}
+.container-fluid{
+/* border: 2px solid red; */
+background-color:#f3f3f3;
+}
+
+.carousel-outer-container{
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+
+.left-section{
+
+    /* border: 2px solid blue; */
+    width:58vw;
+    height: 110%;
+    margin-left: 2.5%;
+
+}
+
+
+
+
+
+.right-section{
+
+    /* border: 2px solid blue; */
+   
+    background-color: white;
+    height: 100%;
+    margin-left: -10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.explore-button button{
+ 
+    border-color: #777;
+    border-width: 0.5px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.arrow-outer-container{
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.arrow-buttons{
+/* border: 2px solid blue; */
+margin:5%;
+display: flex;
+min-width: 15%;
+justify-content: center;
+justify-content: space-around;
+}
+
+
+

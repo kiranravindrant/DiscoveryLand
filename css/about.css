@@ -1,0 +1,345 @@
+
+
+body{
+    margin: 0%;
+}
+
+
+
+
+
+.main-header{
+  
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-evenly;
+    background-image: url(../assets/aboutusbg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+  
+    
+
+}
+
+.logo-navbar{
+width:90%;
+margin-top: -10%;
+margin-left: 2%;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+.nav-list{
+    
+    list-style:none;
+   
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+   
+    line-height: 1.5;
+   
+}
+
+.caption-1{
+color: white;
+margin-left: 20%;
+margin-bottom: 4% ;
+
+}
+
+.caption-1 h1{
+
+    font-family: gt-sectra;
+    font-weight: 100;
+    font-size:3.5em;
+    
+
+}
+.about-para  p{
+
+    text-align: center;
+    font-family: gt-sectra;
+    font-weight: 50;
+    font-size: 2.1em;   
+    width:100vw ;
+    margin-top: 8%;
+    line-height: 139%;
+}
+ 
+
+   
+
+.outer-container{
+
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    
+}
+.title h2{
+    text-align: start;
+    font-family: gt-sectra;
+    font-weight: 50;
+    font-size: 2.1em;  
+
+
+     
+
+}
+.title-2 >h2{
+margin-top: 60% ;
+text-align: start;  
+font-weight: 100;
+margin-left: 5%;
+font-size: 2.1em;
+font-family: gt-sectra;
+}
+
+.left-section  {
+ 
+    width:33%;
+    
+   
+ 
+}
+
+.left-section p{
+    text-align: start;
+    font-family: gt-sectra; 
+    line-height: 168%;
+    font-size: larger;
+}
+
+.right-section img{
+
+    width:39vw
+}
+.image-container-1 img {
+   width:90vw;
+   margin-left: 5vw;
+   margin-top: 5vw;
+   margin-bottom: 5vh;
+    
+}
+
+.image-container-2 img {
+    width:100vw;
+ 
+    margin-top: 5vw;
+    margin-bottom: 5vh;
+     
+ }
+
+ .outer-container-2{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+ }
+
+ #img-design{
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.image-container-3 img {
+
+    width:100%;
+ 
+    margin-top: 5vw;
+    margin-bottom: 5vh;
+     
+ }
+ 
+ .outer-container-3{
+
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10% ;
+ }
+
+ .container-card{
+    display : flex;
+    flex-direction: column;
+    margin-top: 10%;
+    
+    color: white;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/160/What_we_do_footer_2_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+    align-items:center ;
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    width:100vw;
+    height: 65vh;
+    justify-content: center;
+    
+
+ }
+
+ .bottom-card {
+    font-family:gt-sectra;
+    font-size:2em;
+   
+
+
+ }
+ .explore-button button{
+ 
+    border-color: white;
+    color: white;
+    font-family:gt-sectra;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: transparent;
+    
+ }
+ footer{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    background-color:#161f1e ;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+  
+
+@media screen and  (max-width:600px){
+
+
+    .about-para  p{
+
+        text-align: center;
+        font-family: gt-sectra;
+        font-weight: 50;
+        font-size: 2.1em;   
+        width:95vw ;
+        margin-top: 8%;
+        line-height: 129%;
+    }
+     
+
+
+
+
+    .outer-container,.outer-container-3{
+
+  
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        margin-top: 10%;
+       
+        
+        
+    }
+
+    .left-section  {
+ 
+        width:95%;
+      
+
+       
+     
+    }
+    .left-section p{
+        text-align: start;
+        font-family: gt-sectra; 
+        padding-left: 5%;
+     
+     
+    }
+
+    .title h2{
+        text-align: start;
+        font-family: gt-sectra;
+        font-weight: 50;
+        font-size: 2.1em;  
+        padding-left:5% ;
+         
+    
+    }
+
+
+
+    .right-section >img{
+
+        width:100vw;
+     
+        
+    }
+
+
+    .outer-container-2{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100vw;
+     }
+    
+     #img-design{
+        width: 100%;
+      
+
+    }
+
+    .title-2 >h2{
+      
+        text-align: start;  
+        font-weight: 100;
+        margin-left: 10%;
+        margin-top: 10%;
+       
+    }
+
+    footer,.magazine{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: lighter;
+        width:100vw;
+        
+       
+    }
+        
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+ 
